@@ -1,0 +1,5 @@
+target("lex")
+    set_languages("cxxlatest")
+    set_kind("binary")
+    add_files("src/*.cpp")
+    add_deps("lexer")
